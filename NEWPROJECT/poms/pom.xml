@@ -10,13 +10,24 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/process/training/Lesson1/exercise_2_generateandlandedgenodefiles_0.1</module>
+    <module>jobs/process/training/Lesson1/exercise_4_createmssqleltdenormalizeorder_0.1</module>
+    <module>jobs/process/training/Lesson1/Utilities/utility_0_a_droptables_0.1</module>
+    <module>jobs/process/training/Lesson2/exercise_2_landhdfsfiles_0.1</module>
+    <module>jobs/process/training/Lesson2/exercise_3_loadhivestagingtables_0.1</module>
+    <module>jobs/process/training/Lesson2/exercise_1_truncatehivetables_0.1</module>
+    <module>jobs/process/training/Lesson2/Utilities/utility_0_a_drophivetables_0.1</module>
+    <module>jobs/process/training/Lesson1/exercise_1_truncatemssqltables_0.1</module>
+    <module>jobs/process/training/Lesson1/exercise_3_loadmssqlstagingtables_0.1</module>
+    <module>jobs/process/training/Lesson2/exercise_4_createhiveeltdenormlizedorder_0.1</module>
+    <module>jobs/process/training/Lesson2/Utilities/utility_0_b_createhivetables_0.1</module>
   </modules>
   <properties>
     <talend.project.name>NEWPROJECT</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.tag>${project.version}</talend.docker.tag>
+    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>

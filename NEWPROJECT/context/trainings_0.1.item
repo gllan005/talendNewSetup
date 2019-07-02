@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_YM_YsJx9EemCrPLXLIQb6Q" xmi:version="2.0">
+  <contextParameter comment="" name="fileDirectory" prompt="fileDirectory?" promptNeeded="false" type="id_Directory" value="/opt/talend/files/training/" xmi:id="_YM_YsZx9EemCrPLXLIQb6Q"/>
+  <contextParameter comment="" name="fieldSeparator" prompt="fieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_YM_Yspx9EemCrPLXLIQb6Q"/>
+  <contextParameter comment="" name="rowSeparator" prompt="rowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_YM_Ys5x9EemCrPLXLIQb6Q"/>
+  <contextParameter comment="" name="user" prompt="user?" promptNeeded="false" type="id_String" value="&quot;talend&quot;" xmi:id="_YM_YtJx9EemCrPLXLIQb6Q"/>
+  <contextParameter comment="" name="customerFileName" prompt="customerFileName?" promptNeeded="false" type="id_String" value="&quot;customer&quot;" xmi:id="_YM_YtZx9EemCrPLXLIQb6Q"/>
+  <contextParameter comment="" name="orderHeaderFileName" prompt="orderHeaderFileName?" promptNeeded="false" type="id_String" value="&quot;orderHeader&quot;" xmi:id="_YM_Ytpx9EemCrPLXLIQb6Q"/>
+  <contextParameter comment="" name="orderDetailFileName" prompt="orderDetailFileName?" promptNeeded="false" type="id_String" value="&quot;orderDetail&quot;" xmi:id="_YM_Yt5x9EemCrPLXLIQb6Q"/>
+  <contextParameter comment="" name="productFileName" prompt="productFileName?" promptNeeded="false" type="id_String" value="&quot;product&quot;" xmi:id="_YM_YuJx9EemCrPLXLIQb6Q"/>
+  <contextParameter comment="" name="salesPersonFileName" prompt="salesPersonFileName?" promptNeeded="false" type="id_String" value="&quot;salesPerson&quot;" xmi:id="_YM_YuZx9EemCrPLXLIQb6Q"/>
+  <contextParameter comment="" name="storeFileName" prompt="storeFileName?" promptNeeded="false" type="id_String" value="&quot;store&quot;" xmi:id="_YM_Yupx9EemCrPLXLIQb6Q"/>
+  <contextParameter comment="" name="orderFileName" prompt="orderFileName?" promptNeeded="false" type="id_String" value="&quot;order&quot;" xmi:id="_YM_Yu5x9EemCrPLXLIQb6Q"/>
+  <contextParameter comment="" name="hdfsFileDirectory" prompt="hdfsFileDirectory?" promptNeeded="false" type="id_String" value="&quot;/user/talend/&quot;" xmi:id="_YM_YvJx9EemCrPLXLIQb6Q"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_791ef708-8e4b-4b35-8c5a-e3b5ad253f58"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>FQA0OJd7CKqV9BaeWAFm1Xp6hB2VnJlJKzBH3oJYF/j+ba9feIC1QvG79PHO4ElI2Mx78KapcqMO
+WdxQD/Ez7A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fcc44d16-8b86-453c-a42f-712ea99f6778"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YzBPI446M4Yd1xE+UWe0qTGyBArrCk6PXVA0HH+b8b6hEwkBYATaVkrlXzOxiP3J2T3uC4P0T9PD
+IEyubyyxrA==</DigestValue></Reference></SignedInfo><SignatureValue>tt4CT2PKUI9pK2p4ZiOj5NV0tR1iLkKnMkXtaCqX21aQsWY4vbyEhG9q/iHiJ2TfZaiXsRs98hwL
+FVOODtD3HjFfDYMQheb+GnTa6/ZkXl/KktkG85lGg0KKXq19mXf99yqPsV3OTgQQp6IDsAbWWI+i
++U+jxfJonjH+awNX12K0jc7xMx6WwuMtY7IRCGyAYvhaLzGksX1EE5yWOVAoXdyYSOJRwJ9cITQ2
+SdV9UzsWiWTM7ZT+NfnJgE915DniHxKy3FM8fi5MwkVdyLOezw4RdLWmj6SHWHYBDYUR39/rNF0t
+5qzheGp6mF7Cx2feLXfCoGkbegYTLv7kPrEmdg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fcc44d16-8b86-453c-a42f-712ea99f6778" Target="#_791ef708-8e4b-4b35-8c5a-e3b5ad253f58"><Timestamp>2019-07-02 03:56:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
