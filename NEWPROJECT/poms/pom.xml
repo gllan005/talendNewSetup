@@ -48,13 +48,14 @@
     <module>jobs/process_storm/RecommendationEngine/D_Streaming/step_04a_recommendationstream_0.1</module>
     <module>jobs/process/RecommendationEngine/B_Model/Sub_Steps/stagemodel_0.1</module>
     <module>jobs/process/IoTPredictiveMaintenance/step_01_setupenvironment_0.1</module>
+    <module>jobs/process/training/Lesson3/Utilities/test_snowflake_connection_0.1</module>
   </modules>
   <properties>
     <talend.project.name>NEWPROJECT</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.tag>${project.version}</talend.docker.tag>
+    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
